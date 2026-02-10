@@ -37,7 +37,7 @@
                 }
             }
             if (entropy < 0.15) {
-                document.querySelector('.no-button')?.textContent = "Wait... what?";
+                document.querySelector('.no-button')?.textContent = "Wat?";
                 document.querySelector('.yes-button')?.textContent = "Huh??";
             }
             if (entropy < 0.1) {
@@ -54,16 +54,13 @@
 })();
 */
 const messages = [
-    "Are you sure?",
-    "Really sure??",
-    "Are you positive?",
-    "Pookie please...",
-    "Just think about it!",
-    "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
-    "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️"
+    "Zeker?",
+    "Weetje zeker??",
+    "100%?",
+    "Mommy blease...",
+    "Kga je verkrachten",
+    "Als je nee zegt ieke verdriet:(...",
+    "Kk hoertje zeg ja en ga op je knieen! ❤️"
 ];
 
 let messageIndex = 0;
